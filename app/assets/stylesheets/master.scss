@@ -4,6 +4,19 @@ body {
   background-color: #fafafa;
   font-family: 'Josefin Sans', sans-serif;
 }
+.alert {
+  margin-bottom:0px;
+  padding-left:10px;
+  font-size:16px;
+}
+.notice {
+  margin-bottom:0px;
+  font-size:16px;
+  padding:16px 0 16px 10px;
+}
+.signed_in {
+  font-size:16px;
+}
 .top-nav {
   background-color:white;
   border-bottom-color: #edeeee;
@@ -26,12 +39,15 @@ body {
   font-size: 30px;
   font-family: 'Pacifico', cursive;
 }
+.brand a {
+  text-decoration:none;
+}
 .card {
   background-color: #fff;
   border-radius: .25rem;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
   border: 1px solid #e8e8e8;
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 0;
 }
 .handle {
@@ -46,6 +62,9 @@ body {
 }
 .card.form {
   padding: 20px;
+}
+h1 {
+  margin:0px 0 6px 0;
 }
 label {
   font-size: 18px;
@@ -62,6 +81,7 @@ input {
   font-size: 24px;
   color: white;
   margin-top: 10px;
+  padding:6px 0 2px 0;
 }
 .input.boolean {
   margin-left:18px;
@@ -72,25 +92,45 @@ input {
   margin-top:5px;
   line-height: 44px;
 }
+.gram_actions {
+  padding:0px;
+  margin:0px;
+}
 .gram-actions a {
   font-weight: bold;
   font-size: 16px;
   margin-right:20px;
 }
+#comment_message {
+  font-size:18px;
+}
 .comments {
-  padding: 20px;
+  padding: 0px 20px 20px 20px;
+}
+.comments h3 {
+  font-size:18px;
+  font-weight:bold;
+  margin:0px;
+  padding:0px;
 }
 .comment {
   font-size: 16px;
+  padding-left:8px;
 }
 .comment_handle {
   color: #125688;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
 }
 .comment {
   font-size:16px;
   margin-top:5px;
+}
+.comment_form {
+  margin-top:10px;
+}
+.form-control {
+  font-size:18px;
 }
 .clear-fix {
 	clear:both;
